@@ -1,0 +1,105 @@
+allowFunctionsLog = 0;
+
+debriefing = 1;
+
+author = "Poksumoni"; 
+onLoadName = "Assassin at Linovia";
+
+#include "defines.hpp"
+#include "dialogs.hpp"
+
+class CfgSounds {
+ sounds[] = {}; 
+	class alku{
+		sound[] = {"sfx\alku.ogg", db+10,1};
+		titles[] = {};
+	};
+	class varoitus{
+		sound[] = {"sfx\varoitusalueelta.ogg", db+10,1};
+		titles[] = {};
+	};
+	class disco {
+		sound[] = {"sfx\RUDance.ogg", db+60, 1};
+		titles[] = {};
+	};
+	class nel_kowalski {
+		sound[] = {"sfx\nel_kowalski.ogg", db+60, 1};
+		titles[] = {};
+	};
+	class eka_brief {
+		sound[] = {"sfx\eka_brief.ogg", db+10,1};
+		titles[] = {};
+	};
+	class toka_brief {
+		sound[] = {"sfx\toka_brief.ogg", db+10,1};
+		titles[] = {};
+	};
+	class kol_brief {
+		sound[] = {"sfx\kol_brief.ogg", db+10,1};
+		titles[] = {};
+	};
+	class nel_brief {
+		sound[] = {"sfx\nel_brief.ogg", db+10,1};
+		titles[] = {};
+	};
+	class evakuointi{
+		sound[] = {"sfx\evakuointi.ogg", db+10,1};
+		titles[] = {};
+	};
+	class evakuointi2{
+		sound[] = {"sfx\evakuointi2.ogg", db+10,1};
+		titles[] = {};
+	};
+	class miespuhuu1{
+		sound[] = {"sfx\miespuhuu1.ogg", db+10,1};
+		titles[] = {};
+	};
+	class miespuhuuhuono{
+		sound[] = {"sfx\miespuhuuhuono.ogg", db+10,1};
+		titles[] = {};
+	};
+	class miespuhuuhuono2{
+		sound[] = {"sfx\miespuhuuhuono2.ogg", db+10,1};
+		titles[] = {};
+	};
+	class miespuhuuhyva{
+		sound[] = {"sfx\miespuhuuhyva.ogg", db+10,1};
+		titles[] = {};
+	};
+	class miespuhuuhyva2{
+		sound[] = {"sfx\miespuhuuhyva2.ogg", db+10,1};
+		titles[] = {};
+	};
+};
+
+/////////////////// ENDIT ///////////////
+class CfgDebriefing
+{  
+	class End1
+	{
+		title = "Life goes on with the CIA";
+		subtitle = "";
+		description = "Let's see what kind of missions the CIA offers.";
+	};
+
+	
+	
+	class End2
+	{
+		title = "failed?";
+		subtitle = "";
+		description = "You came to Livonia and stayed in Livonia.";
+	};
+	class End3
+	{
+		title = "Unsuccessful visit";
+		subtitle = "";
+		description = "Let’s be honest and state together this wasn’t a surprise to you either.";
+	};
+	class End6
+	{
+		title = "Epic Fail";
+		subtitle = "";
+		description = "You left the area and became unemployd.";
+	};
+};
